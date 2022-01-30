@@ -1,13 +1,13 @@
 //created varibles
-let saveButton = $('')
-let deleteButton = $('')
+let saveBtn = $('.saveButton')
+let deleteBtn = $('.deleteButton')
 let savedTasks= [];
 
 //created calendar 
 $(document).ready(function () {
     let calendarDay = moment().format('MMMM Do YYYY, h:mm:ss a');
 
-        $('currentDay').text('Today is' + calendarDay);
+    $('currentDay').text('Today is' + calendarDay);
 })
 
 
